@@ -39,6 +39,10 @@ a:hover {
     position: relative;
 }
 
+.mb-10 {
+    margin-bottom: 10px;
+}
+
 .bloc .container {
     padding-left: 0;
     padding-right: 0;
@@ -133,7 +137,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: rgba(0, 0, 0, .6);
 }
 
 .d-bloc .a-btn:hover,
@@ -856,6 +860,12 @@ h4 {
     margin: 0 auto;
 }
 
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
@@ -1072,6 +1082,13 @@ h4 {
         padding-left: 0;
         padding-right: 0;
     }
+
+    .column {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
 }
 
 @media (max-width: 767px) {
